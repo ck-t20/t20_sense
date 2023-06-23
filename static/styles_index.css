@@ -1,0 +1,64 @@
+body {
+    /*  BG1 : https://hindi.sportzwiki.com/wp-content/uploads/2022/03/IPL-2022-1-1536x864.jpg
+        BG2 : https://wallpapercave.com/wp/wp2686809.jpg    */
+    background-image: url('https://wallpapercave.com/wp/wp2686809.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+th, td {
+    padding: 8px;
+    border: 1px solid black;
+}
+th {
+    background-color: lightblue;
+}
+td {
+    background-color: #D3D3D3;
+}
+.home-three-elem-container {
+    display: flex;
+    justify-content: space-between;
+}
+.dropdowns-containter{
+    position: relative;
+    overflow: hidden;
+    width: 60%;
+}
+.dropdowns-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-width: max-content;
+    height: fit-content;
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: transparent;
+    backdrop-filter: blur(8px); /* Adjust the blur radius as needed */
+    /* Additional styling for the box */
+    color: white;
+}
+.scorecards-data {
+    width: 60%;
+    margin: 0px 10px 0px 10px;
+    border: 2px solid black;
+    padding: 16px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+}
+/* .middle-content-container{
+    
+} */
+.highlight {
+    background-color: darkblue; /* Set the desired highlight color */
+    padding: 5px;
+    color: white;
+}
